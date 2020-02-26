@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
               ),
               Text(
                 'Ambient Computing',
-                style: GoogleFonts.sourceSansPro(
+                style: GoogleFonts.aclonica(
                 textStyle: TextStyle(
                   fontSize: 25.0,
                   color: Colors.blue.shade100,
