@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -23,20 +25,22 @@ class MyApp extends StatelessWidget {
               ),
               Text(
                 'Christophe R. Patraldo',
-                style: TextStyle(
-                  fontFamily: 'Pacifico',
+                style: GoogleFonts.pacifico(
+                  textStyle: TextStyle(
                   fontSize: 30.0,
                   color: Colors.amber.shade500,
                   fontWeight: FontWeight.normal,
                 ),
               ),
+              ),
               Text(
                 'Ambient Computing',
-                style: TextStyle(
-                  fontFamily: 'Source Sans Pro',
+                style: GoogleFonts.sourceSansPro(
+                textStyle: TextStyle(
                   fontSize: 25.0,
                   color: Colors.blue.shade100,
                   fontWeight: FontWeight.bold,
+                ),
                 ),
               ),
               Container(
@@ -55,11 +59,12 @@ class MyApp extends StatelessWidget {
                   leading: Icon(Icons.phone, color: Colors.amber.shade600),
                   title: Text(
                     '(+1) 323 691-2121',
-                    style: TextStyle(
+                    style: GoogleFonts.sourceSansPro(
+                    textStyle: TextStyle(
                       color: Colors.grey.shade600,
-                      fontFamily: 'Source Sans Pro',
                       fontWeight: FontWeight.bold,
                       fontSize: 20.0,
+                    ),
                     ),
                   ),
                 ),
@@ -75,12 +80,12 @@ class MyApp extends StatelessWidget {
                   ),
                   title: Text(
                     'cheftech@ambientx.com',
-                    style: TextStyle(
+                    style: GoogleFonts.sourceSansPro(
+                    textStyle: TextStyle(
                       color: Colors.grey.shade600,
-                      fontFamily: 'Source Sans Pro',
                       fontWeight: FontWeight.bold,
                       fontSize: 20.0,
-                    ),
+                    ),                    ),
                   ),
                 ),
               ),
